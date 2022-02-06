@@ -9,3 +9,9 @@ let $function = 27;
 
 let myFirstJob = 'Programmer';
 let myCurrentJob = 'Teacher';
+
+/*
+Multiline commant
+
+
+*/
