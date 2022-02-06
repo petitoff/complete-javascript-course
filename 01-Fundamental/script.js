@@ -20,4 +20,8 @@ Multiline commant
 console.log(true);
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+
 console.log(javascriptIsFun);
