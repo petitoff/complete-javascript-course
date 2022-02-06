@@ -20,3 +20,4 @@ Multiline commant
 console.log(true);
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
+console.log(javascriptIsFun);
