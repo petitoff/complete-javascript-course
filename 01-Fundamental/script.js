@@ -24,4 +24,5 @@ console.log(javascriptIsFun);
 console.log(typeof true);
 console.log(typeof javascriptIsFun);
 
+javascriptIsFun = "YES!";
 console.log(javascriptIsFun);
