@@ -15,3 +15,8 @@ Multiline commant
 
 
 */
+
+// Boolean variable
+console.log(true);
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
