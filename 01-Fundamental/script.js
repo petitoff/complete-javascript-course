@@ -24,5 +24,13 @@ console.log(javascriptIsFun);
 console.log(typeof true);
 console.log(typeof javascriptIsFun);
 
-javascriptIsFun = "YES!";
+javascriptIsFun = 'YES!';
 console.log(javascriptIsFun);
+
+// We cannot change value of const var
+const age = 30;
+// age++; // error
+console.log(age);
+
+var job = 'programmer';
+job = 'teacher';
