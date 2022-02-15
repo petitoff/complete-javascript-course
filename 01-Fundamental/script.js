@@ -90,6 +90,7 @@ lines`)
 
 */
 
+/*
 const age = 15;
 
 if(age >= 18) {
@@ -109,3 +110,5 @@ else {
     century = 21;
 }
 console.log(century);
+*/
+
