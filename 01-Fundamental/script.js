@@ -66,6 +66,7 @@ console.log(now - 1991 > now - 2018);
 
 */
 
+/*
 const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
@@ -86,3 +87,6 @@ lines');
 console.log(`String with
 multiple
 lines`)
+
+*/
+
