@@ -5,7 +5,7 @@ let wzrostMarka = 1.88;
 let wzrostJohna = 1.75;
 
 let markBMI = wagaMarka / wzrostMarka ** 2;
-let johnBMI = wagaMarka / wzrostMarka ** 2;
+let johnBMI = wagaJohna / wzrostJohna ** 2;
 
 let markHigherBMI = markBMI > johnBMI;
 
