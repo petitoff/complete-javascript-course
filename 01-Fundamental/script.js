@@ -157,6 +157,7 @@ console.log(hasDriversLicense || hasGoodVision);
 
 */
 
+/*
 const day = 'tuesday';
 switch(day){
     case 'monday':  // day === 'monday'
@@ -180,3 +181,5 @@ switch(day){
     default:
         console.log('Not a valid day!');
 }
+*/
+
