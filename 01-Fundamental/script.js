@@ -141,3 +141,10 @@ console.log(18 == '18');
 console.log(18 === Number('18'));
 */
 
+const favourite = prompt("What's your favourite numbeR?");
+
+if(favourite == 2){
+    alert(`Your favourite number is ${favourite}!`);
+} else{
+    alert(`You don't link 2 :(`)
+}
