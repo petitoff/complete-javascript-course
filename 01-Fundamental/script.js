@@ -131,7 +131,11 @@ console.log('23' / '2');
 let n = '1' + 1;
 n = n - 1;
 console.log(n);
-*/
 
 const age = 18;
 if(age === 18) console.log('yes');
+*/
+
+console.log(18 === 18)
+console.log(18 === '18')
+console.log(18 == '18')
