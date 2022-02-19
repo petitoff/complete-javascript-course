@@ -138,3 +138,6 @@ if(age === 18) console.log('yes');
 console.log(18 === 18);
 console.log(18 === '18');
 console.log(18 == '18');
+console.log(18 === Number('18'));
+*/
+
