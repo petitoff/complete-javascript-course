@@ -14,6 +14,8 @@ if(dolphinsAverage > koalasAverage && dolphinsAverage >= 100){
     console.log(`Dolphins won!`);
 } else if(koalasAverage > dolphinsAverage && koalasAverage >= 100){
     console.log(`Koalas won!`);
+} else if(dolphinsAverage === koalasAverage >= 100){
+    console.log(`Draw.`)
 } else{
     console.log(`Nobody won.`)
 }
