@@ -183,7 +183,16 @@ switch(day){
 }
 */
 
-const age = 15;
+// const age = 15;
+// const drink = age >= 18 ? 1: 2;
+// console.log(drink);
 
-const drink = age >= 18 ? 1: 2;
-console.log(drink);
+// let drink2;
+// if(age => 18){
+//     drink2 = 1;
+// } else{
+//     drink2 = 2;
+// }
+
+const age = 18;
+console.log(`I like to drink ${age >= 18 ? 'wine': 'water'}`);
