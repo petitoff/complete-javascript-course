@@ -1,3 +1,4 @@
-const tip = 275.40;
+const bill = 275.40;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15: bill * 0.2
 
-console.log(`Your tip is ${tip >= 50 && tip <= 300 ? tip * 0.15: tip * 0.20}`);
+console.log(`Your bill is ${tip.toFixed(2)}`);
