@@ -183,3 +183,7 @@ switch(day){
 }
 */
 
+const age = 15;
+
+const drink = age >= 18 ? 1: 2;
+console.log(drink);
