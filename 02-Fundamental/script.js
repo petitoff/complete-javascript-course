@@ -20,6 +20,7 @@ logger();
 logger();
 */
 
+/*
 function fruitProcessor(apples, oranges) {
   console.log(apples, oranges);
   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
@@ -28,3 +29,5 @@ function fruitProcessor(apples, oranges) {
 
 const appleJuice = fruitProcessor(12, 15);
 console.log(appleJuice);
+*/
+
