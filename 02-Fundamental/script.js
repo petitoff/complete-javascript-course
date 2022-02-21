@@ -32,6 +32,8 @@ console.log(appleJuice);
 */
 
 // Function declaration
+const age11 = calcAge1(1991); // It will work
+
 function calcAge1(birtYear) {
   return 2037 - birtYear;
 }
@@ -40,6 +42,8 @@ const age1 = calcAge1(1991);
 console.log(age1);
 
 // Function expression
+// const age22 = calcAge2(1991); // It will not work
+
 const calcAge2 = function (birtYear) {
   return 2037 - birtYear;
 };
