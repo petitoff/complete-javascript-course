@@ -150,6 +150,7 @@ const ages = [
 console.log(ages);
 */
 
+/*
 const friends = ["Michael", "Steven", "Peter"];
 
 // Add elements
@@ -177,3 +178,4 @@ console.log(friends.includes("Bob"));
 if (friends.includes("Peter")) {
   console.log("You have a friend called Peter");
 }
+*/
