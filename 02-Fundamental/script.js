@@ -31,3 +31,18 @@ const appleJuice = fruitProcessor(12, 15);
 console.log(appleJuice);
 */
 
+// Function declaration
+function calcAge1(birtYear) {
+  return 2037 - birtYear;
+}
+
+const age1 = calcAge1(1991);
+console.log(age1);
+
+// Function expression
+const calcAge2 = function (birtYear) {
+  return 2037 - birtYear;
+};
+
+const age2 = calcAge2(1991);
+console.log(age2);
