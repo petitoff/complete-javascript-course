@@ -267,3 +267,7 @@ console.log(
 // Jonas solution
 console.log(jonas.getSummary());
 */
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`Lifting weights repetition ${i}`);
+}
