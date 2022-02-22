@@ -273,3 +273,62 @@ for (let i = 1; i <= 10; i++) {
   console.log(`Lifting weights repetition ${i}`);
 }
 */
+
+const jonas = [
+  "Jonas",
+  "Schnedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+const typesArray = [];
+
+////////////////////////////////////////
+// my testing
+/*
+for (let i = 0; i < jonas.length; i++) {
+  console.log(jonas[i], typeof jonas[i]);
+
+  if (Array.isArray(jonas[i])) {
+    console.log("List detected in list! Displaying Items ...");
+    for (let j = 0; j < jonas[i].length; j++) {
+      console.log(jonas[i][j], typeof jonas[i][j]);
+    }
+    console.log("End of items in the list in the list!");
+  }
+}
+*/
+
+for (let i = 0; i < jonas.length; i++) {
+  // Reading from jonas array
+  console.log(jonas[i], typeof jonas[i]);
+
+  // Filling types array
+  typesArray[i] = typeof jonas[i];
+  // typesArray.push(typeof jonas[i]); // diffrent way to do that
+}
+console.log(typesArray);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2037 - years[i]);
+}
+console.log(ages);
+
+// continue and break
+console.log("---------- ONLY STRING ------------");
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] !== "string") continue;
+
+  console.log(jonas[i], typeof jonas[i]);
+}
+
+console.log("---------- BREAK WITH NUMBER ------------");
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] === "number") break;
+
+  console.log(jonas[i], typeof jonas[i]);
+}
