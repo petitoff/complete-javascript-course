@@ -274,6 +274,7 @@ for (let i = 1; i <= 10; i++) {
 }
 */
 
+/*
 const jonas = [
   "Jonas",
   "Schnedtmann",
@@ -283,6 +284,7 @@ const jonas = [
   true,
 ];
 const typesArray = [];
+*/
 
 ////////////////////////////////////////
 // my testing
