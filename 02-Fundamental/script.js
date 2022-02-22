@@ -219,6 +219,7 @@ console.log(
 );
 */
 
+/*
 const jonas = {
   firstName: "Jonas",
   lastName: "Schmedtmann",
@@ -265,3 +266,4 @@ console.log(
 
 // Jonas solution
 console.log(jonas.getSummary());
+*/
