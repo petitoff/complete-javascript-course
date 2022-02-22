@@ -75,7 +75,7 @@ const measureKelvin = function () {
     unit: "celsius",
 
     // C) FIX
-    value: Number(prompt("Degrees celsius:")),
+    value: 10,
   };
 
   // B) FIND
@@ -92,3 +92,25 @@ const measureKelvin = function () {
 
 // A) IDENTIFY
 console.log(measureKelvin());
+
+const calcTempAmplitudeBug = function (t1, t2) {
+  const temps = t1.concat(t2); // Combining two arrays into one
+
+  let max = 0; // We assume that the first element is the greatest.
+  let min = 0; // We assume that the first element is the smallest.
+  for (let i = 1; i < temps.length; i++) {
+    const curTemp = temps[i];
+    if (typeof curTemp !== "number") continue;
+
+    debugger;
+    if (curTemp > max) max = curTemp;
+    if (curTemp < min) min = curTemp;
+  }
+  console.log("max", max);
+  console.log("min", min);
+
+  return max - min;
+};
+
+const amplitudeNew = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
+console.log(amplitudeNew);
