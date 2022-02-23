@@ -19,7 +19,7 @@ scoreElement0.textContent = 0;
 scoreElement1.textContent = 0;
 diceElement.classList.add("hidden");
 
-const scores = [0, 0];
+let scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 let isGameActive = true;
@@ -70,7 +70,7 @@ btnHold.addEventListener("click", function () {
     scores[activePlayer];
 
   // 2. Check if player's score is >= 100
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 5) {
     isGameActive = false;
     diceElement.classList.add("hidden");
 
@@ -84,4 +84,24 @@ btnHold.addEventListener("click", function () {
     //  Switch to another player
     changeActivePLayer();
   }
+});
+
+btnNew.addEventListener("click", function () {
+  scores = [0, 0];
+  document.getElementById(`score--0`).textContent = 0;
+  document.getElementById(`score--1`).textContent = 0;
+
+  currentScore = 0;
+  changeCurrentScore(currentScore);
+
+  playerElement0.classList.add("player--active");
+
+  document
+    .querySelector(`.player--${activePlayer}`)
+    .classList.remove("player--winner");
+  diceElement.classList.remove("hidden");
+
+  diceElement.classList.add("hidden");
+  activePlayer = 0;
+  isGameActive = true;
 });
