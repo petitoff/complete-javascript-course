@@ -23,8 +23,9 @@ const scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 
-const changeCurrentScore = function (str) {
-  document.getElementById(`current--${activePlayer}`).textContent = str;
+const changeCurrentScore = function (itWillBeDisplayed) {
+  document.getElementById(`current--${activePlayer}`).textContent =
+    itWillBeDisplayed;
 };
 
 const changeActivePLayer = function () {
