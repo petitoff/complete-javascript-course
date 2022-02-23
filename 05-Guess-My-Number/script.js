@@ -19,7 +19,7 @@ let score = Number(document.querySelector(".score").textContent);
 
 const changeScoreValue = function () {
   score--;
-  document.querySelector(".score").textContent = score;
+  document.querySelector(".score").textContent = score; // displays the changed score to the user
 };
 
 document.querySelector(".check").addEventListener("click", function () {
@@ -32,14 +32,23 @@ document.querySelector(".check").addEventListener("click", function () {
   */
 
   if (document.querySelector(".guess").value == "") {
+    // when is no input
     document.querySelector(".message").textContent = "No number!";
   } else if (guess === secretNumber) {
+    // When player wins
     document.querySelector(".message").textContent = "Correct Number!";
+
+    // Change css style
+    document.querySelector("body").style.backgroundColor = "#60b347"; // Change color to green (#60b347)
+    document.querySelector(".number").style.width = "30rem"; // Change width of rectangle
   } else if (score > 1) {
+    // Check if the score is greater than 1
     if (guess > secretNumber) {
+      // if score > 1 then give message to user and decrease score value by 1
       document.querySelector(".message").textContent = "Too high!";
       changeScoreValue();
     } else if (guess < secretNumber) {
+      // if score > 1 then give message to user and decrease score value by 1
       document.querySelector(".message").textContent = "Too low!";
       changeScoreValue();
     }
