@@ -6,5 +6,12 @@ The repository contains all the files and all the code I wrote during the course
 The acquired knowledge will allow me to use JavaScript freely, which will allow me to further develop frameworks.
 > A detailed description is available on the course website.
 
+## Live Demo
+I share the best projects created during the course as hosted pages available at the link.
+### Pig Game
+* A game made during the course. 
+* It is about scoring 50 points in the total table.
+* Live version available for playing in the browser. [Game here!](https://petitoff-dice-game.netlify.app/)
+
 ## Certificate
 After completing the course, a link and a unique certificate ID will also be placed.
