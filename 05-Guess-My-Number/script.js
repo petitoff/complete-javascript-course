@@ -12,15 +12,21 @@ console.log(document.querySelector(".guess").value);
 */
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-document.querySelector(".number").textContent = secretNumber;
+// document.querySelector(".number").textContent = secretNumber;
 
 // Take a startup value from HTML
-let scoreStartValue = Number(document.querySelector(".score").textContent);
+const scoreStartValue = Number(document.querySelector(".score").textContent);
 let score = scoreStartValue;
-
 const changeScoreValue = function () {
-  score--;
-  document.querySelector(".score").textContent = score; // displays the changed score to the user
+  if (score !== 0) {
+    score--;
+    document.querySelector(".score").textContent = score; // displays the changed score to the user
+  }
+};
+
+let highScore = 0;
+const changeHightScore = function (score) {
+  document.querySelector(".highscore").textContent = score;
 };
 
 document.querySelector(".check").addEventListener("click", function () {
@@ -42,6 +48,9 @@ document.querySelector(".check").addEventListener("click", function () {
     // Change css style
     document.querySelector("body").style.backgroundColor = "#60b347"; // Change color to green (#60b347)
     document.querySelector(".number").style.width = "30rem"; // Change width of rectangle
+    if (score > highScore) {
+      changeHightScore(score);
+    }
   } else if (score > 1) {
     // Check if the score is greater than 1
     if (guess > secretNumber) {
