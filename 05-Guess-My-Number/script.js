@@ -11,11 +11,12 @@ document.querySelector(".guess").value = 23;
 console.log(document.querySelector(".guess").value);
 */
 
-const secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 20) + 1;
 document.querySelector(".number").textContent = secretNumber;
 
 // Take a startup value from HTML
-let score = Number(document.querySelector(".score").textContent);
+let scoreStartValue = Number(document.querySelector(".score").textContent);
+let score = scoreStartValue;
 
 const changeScoreValue = function () {
   score--;
@@ -56,4 +57,16 @@ document.querySelector(".check").addEventListener("click", function () {
     changeScoreValue();
     document.querySelector(".message").textContent = "You lost the game!";
   }
+});
+
+document.querySelector(".again").addEventListener("click", function () {
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  score = scoreStartValue;
+  document.querySelector(".score").textContent = score;
+
+  document.querySelector("body").style.backgroundColor = "#222";
+  document.querySelector(".number").style.width = "15rem";
+  document.querySelector(".number").textContent = "?";
+  document.querySelector(".message").textContent = "Start guessing...";
+  document.querySelector(".guess").value = "";
 });
