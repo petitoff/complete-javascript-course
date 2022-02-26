@@ -38,6 +38,7 @@ calcAge(1991);
 // printAge();
 */
 
+/*
 console.log(me); // undefined
 // console.log(job); // error
 // console.log(year);
@@ -76,3 +77,4 @@ const z = 3;
 console.log(x === window.x);
 console.log(y === window.y);
 console.log(z === window.z);
+*/
