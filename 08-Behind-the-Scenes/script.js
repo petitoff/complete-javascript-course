@@ -114,6 +114,7 @@ console.log(f);
 f();
 */
 
+/*
 // var firstName = "Błażej";
 const jonas = {
   firstName: "Jonas",
@@ -157,3 +158,4 @@ var addArrow = (a, b) => {
   return a + b;
 };
 addArrow(2, 5, 8);
+*/
