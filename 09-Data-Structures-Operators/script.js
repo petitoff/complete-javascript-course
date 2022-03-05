@@ -43,6 +43,9 @@ const restaurant = {
   },
 };
 
+// Destructuring Objects
+/*
+/////////////////////////////////////////
 restaurant.orderDelivery({
   time: "22:30",
   address: "Via del sole, 21",
@@ -81,6 +84,7 @@ const {
   fri: { open: o, close: c },
 } = openingHours;
 console.log(o, c);
+*/
 
 /*
 ///////////////////////////////////////
