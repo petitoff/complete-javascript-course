@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+/*
+// 106. Rest Pattern and Parameters
 // ! 1) Destructuring
 // SPREAD, because on RIGHT side of =
 const arr = [1, 2, ...[3, 4]];
@@ -90,6 +92,7 @@ add(...x);
 
 restaurant.orderPizza("mushrooms", "onion", "olives", "spinach");
 restaurant.orderPizza("mushrooms");
+*/
 
 /*
 ////////////////////////////////////
