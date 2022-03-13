@@ -47,6 +47,11 @@ const restaurant = {
       `Here is your delicious pasta with ${ing1}, ${ing2} and ${ing3}`
     );
   },
+
+  orderPizza: function (mainIngredient, ...otherIngredients) {
+    console.log(mainIngredient);
+    console.log(otherIngredients);
+  },
 };
 
 // ! 1) Destructuring
@@ -82,6 +87,9 @@ add(5, 1, 2, 5, 7, 8, 2, 3, 4, 6, 26, 57, 54);
 
 const x = [23, 5, 7];
 add(...x);
+
+restaurant.orderPizza("mushrooms", "onion", "olives", "spinach");
+restaurant.orderPizza("mushrooms");
 
 /*
 ////////////////////////////////////
