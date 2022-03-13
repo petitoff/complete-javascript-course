@@ -5,6 +5,8 @@ The repository contains all the files and all the code I wrote during the course
 ## 00-Web-Developer
 This folder marks external courses and other test codes for websites that help me learn JavaScript. The whole repository is mainly JS oriented, but you can't skip HTML and CSS in learning JS, adding the 00 folder for deeper knowledge.
 
+To learn about HTML and CSS, I took a course on the udemy platform [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/). Thanks to this, it will improve my skills in building websites. It will strengthen my foundations.
+
 > I am adding this information to make it clear that this section is not included in the course and it is my own initiative.
 
 ## Knowledge
