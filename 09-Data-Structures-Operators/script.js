@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+/*
+//107. Short Circuiting (&& and ||)
 console.log("---- OR ----");
 console.log(3 || "Konas");
 console.log("" || "Jonas");
@@ -81,6 +83,7 @@ if (restaurant.orderPizza) {
 }
 
 restaurant.orderPizza && restaurant.orderPizza("mushrooms", "spinach");
+*/
 
 /*
 // 106. Rest Pattern and Parameters
