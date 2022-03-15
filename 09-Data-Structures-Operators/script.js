@@ -54,6 +54,8 @@ const restaurant = {
   },
 };
 
+/*
+// 113. Optional Chaining (?.)
 if (restaurant.openingHours && restaurant.openingHours.mon) {
   console.log(restaurant.openingHours.mon.open);
 }
@@ -80,6 +82,7 @@ console.log(users[0]?.name ?? "User array empty");
 
 if (users.length > 0) console.log(users[0].name);
 else console.log("User array empty");
+*/
 
 /*
 // 111. Looping Arrays: The for-of Loop
