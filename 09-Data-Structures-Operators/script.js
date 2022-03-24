@@ -54,6 +54,9 @@ const restaurant = {
   },
 };
 
+/* 
+// 114. Looping Objects: Object Keys, Values, and Entries
+
 const properties = Object.keys(openingHours);
 console.log(properties);
 
@@ -76,6 +79,8 @@ const entries = Object.entries(openingHours);
 for (const [key, { open, close }] of entries) {
   console.log(`On ${key} we open at ${open} and close at ${close}`);
 }
+*/
+
 /*
 // 113. Optional Chaining (?.)
 if (restaurant.openingHours && restaurant.openingHours.mon) {
