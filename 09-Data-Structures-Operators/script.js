@@ -62,6 +62,9 @@ const ordersSet = new Set([
   "Pasta",
   "Pizza",
 ]);
+
+/*
+// Sets
 console.log(ordersSet);
 
 console.log(new Set());
@@ -88,6 +91,7 @@ console.log(
 );
 
 console.log(new Set("BlazejDomagala").size);
+*/
 
 /* 
 // 114. Looping Objects: Object Keys, Values, and Entries
