@@ -64,6 +64,72 @@ const ordersSet = new Set([
 ]);
 
 const airline = "TAP Air Portugal";
+
+console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
+
+// Fix capitalization in name
+const passenger = "BłAŻej"; // Błażej
+const passengerLower = passenger.toLowerCase();
+const passengerCorrect =
+  passengerLower[0].toUpperCase() + passengerLower.slice(1);
+
+console.log(passengerCorrect);
+
+const reaperNameOfPassenger = function (namePassenger) {
+  return namePassenger.toUpperCase()[0] + namePassenger.toLowerCase().slice(1);
+};
+
+console.log(reaperNameOfPassenger(passenger));
+
+// Comparing emails
+const email = "hello@blazej.io";
+const loginEmail = " Hello@Blazej.Io \n";
+
+// const lowerEmail = loginEmail.toLowerCase();
+// const trimmedEmail = lowerEmail.trim();
+// console.log(trimmedEmail);
+
+const normalizedEmail = loginEmail.toLowerCase().trim();
+console.log(normalizedEmail);
+console.log(email === normalizedEmail);
+
+// replacing
+const priceEUR = "288,97€";
+const priceUS = priceEUR.replace("€", "$").replace(",", ".");
+console.log(priceEUR, priceUS);
+
+const announcement =
+  "All passengers come to barding door 23. Boarding door 23!";
+console.log(announcement.replace(/door/g, "gate"));
+
+// Booleans
+
+const plane = "Airbus A320neo";
+console.log(plane.includes("A320"));
+console.log(plane.includes("Boeing"));
+console.log(plane.startsWith("Air"));
+
+if (plane.startsWith("Airbus") && plane.endsWith("neo")) {
+  console.log("Part of the NEW Airbus family");
+}
+
+// Practice exercise
+const checkBaggage = function (item) {
+  const baggage = item.toLowerCase();
+  if (baggage.includes("knife") || baggage.includes("gun")) {
+    console.log("You are NOT allowed on board!");
+  } else {
+    console.log("Welcome aboard!");
+  }
+};
+
+checkBaggage("I have a laptop, some Food and a packet knife");
+checkBaggage("Socks and camera");
+checkBaggage("Get some snacks and a gun for protection");
+
+/*
+const airline = "TAP Air Portugal";
 const plane = "A320";
 
 console.log(plane[0]);
@@ -105,6 +171,7 @@ console.log(new String("Błażej"));
 console.log(typeof new String("Błażej"));
 
 console.log(new String("Błażej").slice(1));
+*/
 
 /*
 const question = new Map([
