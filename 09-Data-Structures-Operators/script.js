@@ -54,15 +54,57 @@ const restaurant = {
   },
 };
 
-const ordersSet = new Set([
-  "Pasta",
-  "Pizza",
-  "Pizza",
-  "Risotto",
-  "Pasta",
-  "Pizza",
-]);
+// Split and join
+console.log("a+very+nice+string".split("+"));
+console.log("Błażej Domagała".split(" "));
 
+const [firstName, lastName] = "Błażej Domagała".split(" ");
+
+const newName = ["Mr.", firstName, lastName.toUpperCase()].join(" ");
+console.log(newName);
+
+const capitalizeName = function (name) {
+  name = name.split(" ");
+  const namesUpper = [];
+
+  for (const n of name) {
+    // namesUpper.push(n[0].toUpperCase() + n.slice(1));
+    namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
+  }
+  console.log(namesUpper.join(" "));
+};
+
+capitalizeName("jessica and smith davis");
+capitalizeName("błażej domagała");
+
+// Padding
+const message = "Go to gate 23!";
+console.log(message.padStart(25, "+").padEnd(30, "+"));
+console.log("Błażej".padStart(25, "+").padEnd(30, "+"));
+
+const maskCreditCard = function (number) {
+  const str = number + "";
+  const last = str.slice(-4);
+  return last.padStart(str.length, "*");
+};
+
+console.log(maskCreditCard(7365812736472456));
+console.log(maskCreditCard("9234726374682371"));
+
+// Repeat
+const message2 = "Bad weather... All Departures Delayed... ";
+console.log(message2.repeat(5));
+
+const planeInLine = function (n) {
+  console.log(`There are ${n} planes in line ${"🛫".repeat(n)}`);
+};
+planeInLine(5);
+planeInLine(3);
+planeInLine(12);
+
+/*
+///////////////////////////////////
+// Working with strings - part 2
 const airline = "TAP Air Portugal";
 
 console.log(airline.toLowerCase());
@@ -127,6 +169,7 @@ const checkBaggage = function (item) {
 checkBaggage("I have a laptop, some Food and a packet knife");
 checkBaggage("Socks and camera");
 checkBaggage("Get some snacks and a gun for protection");
+*/
 
 /*
 const airline = "TAP Air Portugal";
@@ -243,6 +286,15 @@ console.log(rest.get(arr));
 
 /*
 // Sets
+const ordersSet = new Set([
+  "Pasta",
+  "Pizza",
+  "Pizza",
+  "Risotto",
+  "Pasta",
+  "Pizza",
+]);
+
 console.log(ordersSet);
 
 console.log(new Set());
