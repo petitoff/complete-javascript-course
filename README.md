@@ -1,5 +1,6 @@
 # Complete JavaScript Course
-The repository contains all the files and all the code I wrote during the course [The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!](https://www.udemy.com/course/the-complete-javascript-course) on the udemy platform.
+
+The repository contains all the files and all the code I wrote during the course [The Complete JavaScript Course 2022: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course) on the udemy platform.
 <br><br>The repository also contains the tasks that were to be completed under the challenges.
 
 ## 00-Web-Developer
@@ -21,4 +22,4 @@ I share the best projects created during the course as hosted pages available at
 * Live version available for playing in the browser. [Game here!](https://petitoff-dice-game.netlify.app/)
 
 ## Certificate
-After completing the course, a link and a unique certificate ID will also be placed.
+![UC-b8260ea4-220e-4fad-9de8-ee2ea17af534.jpg](Y5za1v6vK-UC-b8260ea4-220e-4fad-9de8-ee2ea17af534.jpg)
