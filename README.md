@@ -22,4 +22,5 @@ I share the best projects created during the course as hosted pages available at
 * Live version available for playing in the browser. [Game here!](https://petitoff-dice-game.netlify.app/)
 
 ## Certificate
+#### [Link to the certificate.]( https://www.udemy.com/certificate/UC-b8260ea4-220e-4fad-9de8-ee2ea17af534/)
 ![UC-b8260ea4-220e-4fad-9de8-ee2ea17af534.jpg](Y5za1v6vK-UC-b8260ea4-220e-4fad-9de8-ee2ea17af534.jpg)
